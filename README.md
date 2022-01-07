@@ -16,6 +16,14 @@ Commit by commit we should be able to track the changes to a more CUPID habitabl
 * **Idiomatic** - _feels natural_; programming language idioms, core language library use preferred over dependencies, common patterns and refactorings, local idioms
 * **Domain** - _in language and structure_; identify sub domains, code domain structure, units of deployment
 
+### Questions asked of the codebase
+* Does this fits in my head? Can I reason about it? Do I need more to help me reason about this from elsewhere?
+* What is this interface for? To only serve testing? Will it have more implementations?
+* Is this code easy to change? Can I compose things with this piece of code?
+* Can I remove some unit tests for behavioural tests and reduce complexity from testing?
+* Are we seeing a duality of interface and class?
+* How is the 'new' keyword used? As part of DI or where needed?
+
 _end of fork edits_
 
 
