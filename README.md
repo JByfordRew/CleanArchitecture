@@ -2,10 +2,13 @@
 
 This fork is an honest attempt to see if CUPID properties can be applied to a popular example of one application solution domain and is not intended to debunk any coding practices and is intended as a learning exercise.  In this case an ASP.NET Core MVC, DDD, Clean Architecture and SOLID implementation. I could have picked any number of repositories to work on but chose this due to its popularity and contemporary style.  
 
+For more informatiojn on CUPID see https://dannorth.net/2021/03/16/cupid-the-back-story/
+
 **WARNING**: Do not use this repo as a starting point for your own use.  This is a proof of concept only.
 
 ## Approach
 Commit by commit we should be able to track the changes to a more CUPID habitable code base.  The first commit will contain a number of TODO items commented in code hinting at changes the could be made to alter the code base.
+
 
 _end of fork edits_
 
