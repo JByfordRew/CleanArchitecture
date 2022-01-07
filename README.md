@@ -9,6 +9,12 @@ For more information on CUPID see https://dannorth.net/2021/03/16/cupid-the-back
 ## Approach
 Commit by commit we should be able to track the changes to a more CUPID habitable code base.  The first commit will contain a number of TODO items commented in code hinting at changes the could be made to alter the code base.
 
+## Criteria
+* **Composable** - _plays well with others_; small opinionated api, intention revealing, minimal dependencies
+* **Unix philosophy** - _does one thing well_; one coherent thing, well defined/complete, output used as inputs
+* **Predictable** - _does what you expect_; operating characteristics, inferred insternal state, instrumentation and telemetry
+* **Idiomatic** - _feels natural_; programming language idioms, core language library use preferred over dependencies, common patterns and refactorings, local idioms
+* **Domain** - _in language and structure_; identify sub domains, code domain structure, units of deployment
 
 _end of fork edits_
 
