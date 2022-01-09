@@ -27,6 +27,7 @@ Commit by commit we should be able to track the changes to a more CUPID habitabl
 1. Remove existing implementation tests therefore decoupling test induced complexity and change inhibiting unit tests.
 1. Simplify Core implementation. Change structure to actual domain instead of DDD domain concepts structure. Use DDD concepts without pointing them out. Correct concept use will be apparent in how well the core domain is communicated in code.
 1. Consider API first and operational characteristics via contract tests.
+1. Remove dependencies and simplify code, ie guard package.
 1. TBD (to be discovered)
 
 _end of fork edits_
