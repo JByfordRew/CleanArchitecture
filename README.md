@@ -6,9 +6,6 @@ For more information on CUPID see https://dannorth.net/2021/03/16/cupid-the-back
 
 **WARNING**: Do not use this repo as a starting point for your own use.  This is a proof of concept only.
 
-## Approach
-Commit by commit we should be able to track the changes to a more CUPID habitable code base.  The first commit will contain a number of TODO items commented in code hinting at changes the could be made to alter the code base.
-
 ## Criteria
 * **Composable** - _plays well with others_; small opinionated api, intention revealing, minimal dependencies
 * **Unix philosophy** - _does one thing well_; one coherent thing, well defined/complete, output used as inputs
@@ -23,6 +20,13 @@ Commit by commit we should be able to track the changes to a more CUPID habitabl
 * Can I remove some unit tests for behavioural tests and reduce complexity from testing?
 * Are we seeing a duality of interface and class?
 * How is the 'new' keyword used? As part of DI or where needed?
+
+## Approach
+Commit by commit we should be able to track the changes to a more CUPID habitable code base.
+1. Understand domain by adding fast BDD tests alongside existing tests.
+1. Remove existing implementation tests therefore decoupling test induced complexity and change inhibiting unit tests.
+1. Simplify Core implementation.
+1. TBD (to be discovered)
 
 _end of fork edits_
 
