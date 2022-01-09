@@ -25,7 +25,7 @@ For more information on CUPID see https://dannorth.net/2021/03/16/cupid-the-back
 Commit by commit we should be able to track the changes to a more CUPID habitable code base.
 1. Understand domain by adding fast BDD tests alongside existing tests.
 1. Remove existing implementation tests therefore decoupling test induced complexity and change inhibiting unit tests.
-1. Simplify Core implementation.
+1. Simplify Core implementation. Change structure to actual domain instead of DDD domain concepts structure. Use DDD concepts without pointing them out. Correct concept use will be apparent in how well the core domain is communicated in code.
 1. TBD (to be discovered)
 
 _end of fork edits_
